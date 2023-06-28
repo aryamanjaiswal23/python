@@ -30,7 +30,7 @@
 #     print(i)
 #     i-=1
     
-# guess game using while loop
+# # guess game using while loop
 
 # secret="bruh"
 # guess_no=5
@@ -57,24 +57,29 @@
 # print(to_pow(3,4))
 
 
-# 2d lists
-l=[[1,2,3],[5,4,2],[4,6,7]]
-print(l[2][2])
-for row in l:
-    for col in row:
-        print(col)
+# # 2d lists
+# l=[[1,2,3],[5,4,2],[4,6,7]]
+# print(l[2][2])
+# for row in l:
+#     for col in row:
+#         print(col)
         
 
-def reader(phrase):
-    temp=""
-    for  letter in phrase:
-        if letter.lower() in "aeiou":
-            temp=temp+ "/"
-        else: temp=temp + letter
-    return temp
+# def reader(phrase):
+#     temp=""
+#     for  letter in phrase:
+#         if letter.lower() in "aeiou":
+#             temp=temp+ "/"
+#         else: temp=temp + letter
+#     return temp
 
-print(reader(input()))
+# print(reader(input()))
 
+# #try-except
+# try: f=10/0
+# except ZeroDivisionError as err: print(err)
 
-try: f=10/0
-except ZeroDivisionError as err: print(err)
+set1 = {"abc", 34, True, 40, "male",1}
+set2={1,1}
+print(set2)
+print(type(set1))
